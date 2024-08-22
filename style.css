@@ -1,35 +1,29 @@
 
 
-.desc_social_face {
+.all_desc {
     justify-content: left;
     display: flex;
     text-align: left;
     align-items: center;
 }
 
-.facebook_midia 
-~ .face_icon {
-    justify-content: left;
-    display: flex;
-    
-}
+
 
 .facebook_midia {
    
     flex-direction: column;
     border-radius: 5px;
     display: flex;
-    background-color: rgb(201, 200, 200);
+  justify-content: space-between;
+  background-color: hsl(227, 47%, 96%);
     align-items: center;
     height: 200px;
     width: 250px;
 }
 
-.face_p {
-    color: #7A7D8C;
-}
 
-.face_gain{
+
+.all_gain{
     justify-content: left;
     display: flex;
     text-align: center;
@@ -49,9 +43,16 @@
     margin-top: 0;
    
 }
-
+.down {
+    color: hsl(356, 69%, 56%);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
 .up {
-    color: #2da383;
+    color: hsl(163, 72%, 41%);
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -59,80 +60,40 @@
     flex-direction: row;
 }
 #midia2{
-    justify-content: space-around;
-    background-color: #e2e2e2;
+    flex-direction: column;
+    background-color:hsl(225, 100%, 98%);
     font-family: "Inter",sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 #midia{
     margin-left: 5%;
-    background-color: #e2e2e2;
+    margin-right: 5%;
+    background-color: #ffffff;
     font-family: "Inter",sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     display: flex;
+    justify-content: space-evenly;
 }
 .X_midia {
+
     flex-direction: column;
     border-radius: 5px;
     display: flex;
-    background-color: rgb(201, 200, 200);
+    background-color: hsl(227, 47%, 96%);
     align-items: center;
     height: 200px;
     width: 250px;
 }
-.desc_social_X {
-    justify-content: left;
-    display: flex;
-    text-align: left;
-    align-items: center;
-    flex-direction: row;
 
-}
 .X_midia h4 {
     color: #6A6D76;
  
    
-}
-.up2{
-    color: #2da383;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-}
-.X_midia 
-~ .X_icon {
-    justify-content: left;
-    display: flex;
-    
-}
-.X_gain{
-    justify-content: left;
-    display: flex;
-    text-align: center;
-    align-items: center;
-
-}
-
-.X_p {
-    color: #7A7D8C;
-}
-.desc_social_insta {
-    justify-content: left;
-    display: flex;
-    text-align: left;
-    align-items: center;
-}
-
-.insta_midia 
-~ .insta_icon {
-    justify-content: left;
-    display: flex;
-    
 }
 
 .insta_midia {
@@ -140,28 +101,41 @@
     flex-direction: column;
     border-radius: 5px;
     display: flex;
-    background-color: rgb(201, 200, 200);
+    background-color: hsl(227, 47%, 96%);
     align-items: center;
     height: 200px;
     width: 250px;
 }
 
-.insta_p {
-    color: #7A7D8C;
+.yt_midia {
+
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    background-color: hsl(227, 47%, 96%);
+    align-items: center;
+    height: 200px;
+    width: 250px;
 }
 
-.insta_gain{
+.yt_gain{
     justify-content: left;
     display: flex;
     text-align: center;
     align-items: center;
 
 }
-.up3{
-    color: #2da383;
+.all_p{
+   color: #7A7D8C;
     justify-content: center;
     align-content: center;
     align-items: center;
     display: flex;
     flex-direction: row;
+} 
+
+.borda{
+    height: 20px;
+    width: 100px;
+    background-color: red;
 }
