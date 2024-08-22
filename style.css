@@ -1,0 +1,167 @@
+
+
+.desc_social_face {
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.facebook_midia 
+~ .face_icon {
+    justify-content: left;
+    display: flex;
+    
+}
+
+.facebook_midia {
+   
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(201, 200, 200);
+    align-items: center;
+    height: 200px;
+    width: 250px;
+}
+
+.face_p {
+    color: #7A7D8C;
+}
+
+.face_gain{
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+#midia h1{
+    color: #252831;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+#midia h4 {
+    color: #6A6D76;
+    margin-top: 0;
+   
+}
+
+.up {
+    color: #2da383;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+#midia2{
+    justify-content: space-around;
+    background-color: #e2e2e2;
+    font-family: "Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+}
+#midia{
+    margin-left: 5%;
+    background-color: #e2e2e2;
+    font-family: "Inter",sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+}
+.X_midia {
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(201, 200, 200);
+    align-items: center;
+    height: 200px;
+    width: 250px;
+}
+.desc_social_X {
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: row;
+
+}
+.X_midia h4 {
+    color: #6A6D76;
+ 
+   
+}
+.up2{
+    color: #2da383;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.X_midia 
+~ .X_icon {
+    justify-content: left;
+    display: flex;
+    
+}
+.X_gain{
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.X_p {
+    color: #7A7D8C;
+}
+.desc_social_insta {
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.insta_midia 
+~ .insta_icon {
+    justify-content: left;
+    display: flex;
+    
+}
+
+.insta_midia {
+    
+    flex-direction: column;
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(201, 200, 200);
+    align-items: center;
+    height: 200px;
+    width: 250px;
+}
+
+.insta_p {
+    color: #7A7D8C;
+}
+
+.insta_gain{
+    justify-content: left;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.up3{
+    color: #2da383;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
